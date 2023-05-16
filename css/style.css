@@ -1,0 +1,587 @@
+/*igual para todos los html*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    list-style: none
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #fff59d;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
+.header {
+    background-color: #1b3039;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10%;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    display: flex;
+}
+
+.header__logo img {
+    border-radius: 40px;
+    height: 67px;
+    width: auto;
+    cursor: pointer;
+    transition:all 0.5s;
+}
+
+.header__logo img:hover{
+    transform: scale(1.2);
+}
+
+.nav-item{
+    transition: 1s;
+}
+
+.nav-item:hover{
+    background-color: #15252c;
+    border-radius: 60px;
+}
+
+.nav-link{
+    color: #eceff1;
+    transition: 1s;
+}
+
+.nav-link:hover{
+    transform: scale(1.2);
+    color: #fff59d;
+}
+
+.paginaactual{
+    color: #fff59d;
+}
+
+.dropdown-menu{
+    background-color: #1b3039;
+    background: rgba(0,0,0);
+}
+
+.dropdown-item{
+    color: #eceff1;
+}
+
+.nav-item .btn {
+    text-decoration:none;
+    border: 0;
+}
+
+.cambiarcolor{
+    color: #eceff1;
+}
+
+.cambiarcolor:hover{
+    transform: scale(1.1);
+    color: #fff59d;
+}
+
+.paginaactual{
+    color: #fff59d;
+}
+
+@media (max-width: 1199px) {
+    .nav-pills{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+main {
+    margin-top: 150px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #1b3039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-div1-logo__img {
+    border-radius: 40px;
+    height: 80px;
+    margin-top: auto;
+    cursor: pointer;
+}
+
+.footer-div1-logo__img:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+.footer-div2__iconos .footer-div2-iconos__img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid;
+    margin: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-div2__iconos .footer-div2-iconos__img:hover{
+    background-color:#fff59d;
+    color: #1b3039;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+/*Inicio*/
+
+.maininicio {
+    display: flex;
+    height: 100%;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.maininicio__divprincipal {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.maininicio-divprincipal__categorias {
+    background-color: gray;
+    width: 25%;
+}
+
+.maininicio-divprincipal-categorias__ul{
+    text-align: center;
+}
+
+.maininicio-divprincipal-categorias-ul__li{
+    cursor: pointer;
+}
+
+.maininicio-divprincipal-categorias-ul__li:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+.maininicio-divprincipal__imagengrande {
+    width: 70%;
+    margin: auto;
+}
+
+.maininicio-divprincipal__imagengrande img{
+    width: 100%;
+    height: 300px;
+}
+
+.maininicio__divproductosvarios {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.maininicio__divproductosvarios img {
+    width: 200px;
+    height: 160px;
+    margin-right: 28px;
+    border-radius: 10px;
+}
+
+.maininicio-divproductosvarios__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #1b3039;
+    box-shadow: 7px 13px 37px #000;
+    width: 40%;
+}
+
+.maininicio-divproductosvarios__items button{
+    background-color: #eceff1;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    background: #79bedb;
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+.maininicio-divproductosvarios__items button:hover{
+    background-color: #e2f1f8;
+    color: #1b3039;
+    transform: scale(1.1);
+}
+
+.maininicio-divproductosvarios-items__info{
+    color: white;
+}
+
+.maininicio-divproductosvarios-items__infol{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*productos*/
+
+.titulos{
+    margin-left: 15px;
+}
+
+.main__productos img{
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.carousel-item{
+    padding: auto;
+}
+
+.carousel-item img{
+    margin: 3%;
+    margin-bottom: 7%;
+    box-shadow: 7px 12px 37px #1b3039;
+}
+
+.carousel-item img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+@media (max-width: 700px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/*Stock*/
+
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card{
+    border-radius: 30px;
+    margin: 5%;
+    background-color: #1b3039;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+
+.btn-primary{
+    border-radius: 50px;
+    width: 120px;
+    margin: 5%;
+}
+
+.btn-primary:hover{
+    background-color: #1b3039;
+}
+
+h3,h5{
+    color: rgb(133, 175, 236);
+}
+
+p{
+    color: #eceff1;
+}
+
+
+
+
+
+
+
+
+
+
+/*Contacto*/
+
+.maincontacto__formulario {
+    width: 35%;
+    background-color: #1b3039;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 60px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.maincontacto__formulario h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.maincontacto__formulario .link {
+    color: rgb(255, 255, 255);
+}
+
+.maincontacto-formulario__controles {
+    width: 100%;
+    background-color: #1b3039;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    display: block;
+    border: 2,5px solid #000;
+    font-family: 'calibri';
+    font-size: 20px;
+}
+
+.maincontacto__formulario .maincontacto-formulario__boton button{
+    background-color: #eceff1;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    background: #79bedb;
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+.maincontacto__formulario .maincontacto-formulario__boton button:hover{
+    background-color: #e2f1f8;
+    color: #1b3039;
+    transform: scale(1.1);
+}
+
+@media (max-width: 1200px){
+    .maincontacto__formulario {
+        width: 45%;
+    }
+}
+
+@media (max-width: 700px){
+    .maincontacto__formulario {
+        width: 65%;
+    }
+}
+
+@media (max-width: 700px){
+    .maincontacto__formulario {
+        width: 85%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Carrito*/
+
+.seccion1-carrito {
+    margin: auto;
+}
+
+.seccion1-carrito .contenedor-carrito {
+    width: 1000px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.seccion1-carrito .contenedor-carrito ul {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 10px;
+}
+
+.seccion1-carrito .contenedor-carrito .ul-carrito-producto img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.seccion1-carrito .contenedor-carrito button{
+    background-color: #eceff1;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    background: #79bedb;
+    width: 200px;
+    padding: 12px;
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+.seccion1-carrito .contenedor-carrito button:hover{
+    background-color: #e2f1f8;
+    color: #1b3039;
+    transform: scale(1.1);
+}
+
+.main-carrito {
+    display: flex;
+}
+
+.seccion2-carrito {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+/*Cuenta*/
+
+.formulario-cuenta {
+    width: 500px;
+    background-color: #1b3039;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 60px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.formulario-cuenta h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario-cuenta .link {
+    color: rgb(255, 255, 255);
+}
+
+.controles-cuenta {
+    width: 450px;
+    background-color: #1b3039;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    display: block;
+    border: 2,5px solid #000;
+    font-family: 'calibri';
+    font-size: 20px;
+}
+
+.formulario-cuenta .p-cuenta {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.formulario-cuenta .boton-cuenta button{
+    background-color: #eceff1;
+    font-weight: 700;
+    color: #1b3039;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    background: #79bedb;
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+.formulario-cuenta .boton-cuenta button:hover{
+    background-color: #e2f1f8;
+    color: #1b3039;
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carrito</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-expand-xl">
+                <div class="header__logo">
+                    <a href="../index.html"><img class="header-logo__img" src="../image/eureka.png" alt=""></a>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="MenuNavegacion" class="collapse navbar-collapse">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <button type="button" class="btn nav__boton_prueba btn-link ">
+                                <a class="nav-link paginaactual" aria-current="page" href="../index.html">Inicio</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <div class="btn-group nav__boton">
+                                <button type="button" class="btn btn-link"><a class="nav-link" href="productos.html">Productos</a></button>
+                                <button type="button" class="btn dropdown-toggle dropdown-toggle-split cambiarcolor" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="visually-hidden">Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu ms-5">
+                                    <li><a class="dropdown-item" href="#">Set Matero</a></li>
+                                    <li><a class="dropdown-item" href="#">Cartucheras</a></li>
+                                    <li><a class="dropdown-item" href="#">Neceser</a></li>
+                                    <li><a class="dropdown-item" href="#">Nidito</a></li>
+                                    <li><a class="dropdown-item" href="#">Almohadones Infantiles</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-link">
+                                <a class="nav-link" href="stock.html">Stock</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-link">
+                                <a class="nav-link" href="contacto.html">Contacto</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-link">
+                                <a class="nav-link" href="carrito.html">Carrito</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-link">
+                                <a class="nav-link" href="cuenta.html">Cuenta</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <main class="main-carrito">
+            <section class="seccion1-carrito">
+                <div class="contenedor-carrito">
+                    <ul class="ul-carrito-encabezado">
+                        <li>Imagen</li>
+                        <li>Nombre</li>
+                        <li>Precio</li>
+                        <li>Cantidad</li>
+                    </ul>
+                    <ul class="ul-carrito-producto">
+                        <img src="../image/4.jpeg" alt="">
+                        <h3>Cartucher mini</h3>
+                        <p>$500</p>
+                        <p>3</p>
+                    </ul>
+                    <ul class="ul-carrito-producto">
+                        <img src="../image/3.jpeg" alt="">
+                        <h3>Set matero hojas</h3>
+                        <p>$500</p>
+                        <p>2</p>
+                    </ul>
+                    <ul class="ul-carrito-producto">
+                        <img src="../image/12.jpeg" alt="">
+                        <h3>Cartuchera gustavo</h3>
+                        <p>$500</p>
+                        <p>3</p>
+                    </ul>
+                    <button>Vaciar carrito</button>
+                </div>
+            </section>
+            <section class="seccion2-carrito">
+                <h2>Total</h2>
+                <h3>$$$$$</h3>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-div1__logo">
+                <img src="../image/eureka.png" alt=""class="footer-div1-logo__img">
+            </div>
+            <div class="footer-div2__iconos">
+                <img class="footer-div2-iconos__img" src="../icon/whatsapp.png" alt="">
+                <img class="footer-div2-iconos__img" src="../icon/instagram.png" alt="">
+                <img class="footer-div2-iconos__img" src="../icon/facebook.png" alt="">
+                <img class="footer-div2-iconos__img" src="../icon/ubicacion.png" alt="">
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

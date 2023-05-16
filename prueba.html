@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="prueba.css">
+        <title>pruebainicio</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-expand-xl">
+                <div class="header__logo">
+                    <a href="index.html"><img class="header-logo__img" src="./image/eureka.png" alt=""></a>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="MenuNavegacion" class="collapse navbar-collapse">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <button type="button" class="btn nav__boton_prueba btn-link ">
+                                <a class="nav-link paginaactual" aria-current="page" href="./index.html">Inicio</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <div class="btn-group nav__boton">
+                                <button type="button" class="btn btn-link"><a class="nav-link" href="./pages/productos.html">Productos</a></button>
+                                <button type="button" class="btn dropdown-toggle dropdown-toggle-split cambiarcolor" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="visually-hidden">Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu ms-5">
+                                    <li><a class="dropdown-item" href="#">Set Matero</a></li>
+                                    <li><a class="dropdown-item" href="#">Cartucheras</a></li>
+                                    <li><a class="dropdown-item" href="#">Neceser</a></li>
+                                    <li><a class="dropdown-item" href="#">Nidito</a></li>
+                                    <li><a class="dropdown-item" href="#">Almohadones Infantiles</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-link">
+                                <a class="nav-link" href="./pages/stock.html">Stock</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-link">
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-link">
+                                <a class="nav-link" href="./pages/carrito.html">Carrito</a>
+                            </button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-link">
+                                <a class="nav-link" href="./pages/cuenta.html">Cuenta</a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <main>
+
+
+
+
+            <div class="container-fluid ms-3 me-3">
+                <form action="" class="d-flex formulario-cuenta row justify-content-center col-12">
+                    <h3 class="col-6">Formulario Registro</h3>
+                    <input class="controles-cuenta" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                    <input class="controles-cuenta" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
+                    <input class="controles-cuenta" type="email" name="email" id="email" placeholder="Ingrese su correo">
+                    <input class="controles-cuenta" type="password" name="password" id="password" placeholder="Ingrese su Contraseña">
+                    <input class="controles-cuenta" type="password" name="password" id="password" placeholder="Confirme su Contraseña">
+                    <p class="p-cuenta">Estoy de acuerdo con <a href="#" class="link">Terminos y condiciones</a></p>
+                    <a href="#" class="boton-cuenta"><button>Confirmar</button></a>
+                    <p class="p-cuenta"><a href="#" class="link">Ya tengo Cuenta</a></p>
+                </form>
+            </div>
+        </main>
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="footer-div1__logo">
+                <img src="../image/eureka.png" alt=""class="footer-div1-logo__img">
+            </div>
+            <div class="footer-div2__iconos">
+                <img class="footer-div2-iconos__img" src="../icon/whatsapp.png" alt="">
+                <img class="footer-div2-iconos__img" src="../icon/instagram.png" alt="">
+                <img class="footer-div2-iconos__img" src="../icon/facebook.png" alt="">
+                <img class="footer-div2-iconos__img" src="../icon/ubicacion.png" alt="">
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
