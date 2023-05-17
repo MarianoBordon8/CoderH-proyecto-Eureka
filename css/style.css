@@ -127,9 +127,7 @@ main {
 
 footer {
     width: 100%;
-    height: 200px;
-    position: absolute;
-    left: 0;
+    height: 5%;
     padding: 2rem 8%;
     background-color: #1b3039;
     display: flex;
@@ -140,30 +138,51 @@ footer {
 
 .footer-div1-logo__img {
     border-radius: 40px;
-    height: 80px;
-    margin-top: auto;
+    height: 13vh;
+    margin-top: 1vh;
     cursor: pointer;
 }
 
 .footer-div1-logo__img:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
     transition: .5s;
 }
 
-.footer-div2__iconos .footer-div2-iconos__img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-    border: 1px solid;
-    margin: 1rem;
-    margin-bottom: 10px;
+footer .bi{
+    color: #000;
+    margin: 0 2%;
+    margin-top: 1%;
+}
+
+.footer-div2__iconos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
     cursor: pointer;
 }
 
-.footer-div2__iconos .footer-div2-iconos__img:hover{
-    background-color:#fff59d;
-    color: #1b3039;
-    transform: scale(1.1);
+.footer-div2__iconos .insta:hover{
+    color: rgb(221, 39, 99);
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+.footer-div2__iconos .ubi:hover{
+    color: red;
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+.footer-div2__iconos .wsp:hover{
+    color: green;
+    transform: scale(1.3);
+    transition: .5s;
+}
+
+.footer-div2__iconos .face:hover{
+    color: blue;
+    transform: scale(1.3);
+    transition: .5s;
 }
 
 
@@ -273,6 +292,7 @@ footer {
 .maininicio-divproductosvarios-items__infol{
     color: white;
 }
+
 
 
 
