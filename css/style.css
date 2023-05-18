@@ -142,7 +142,7 @@ footer {
 }
 
 .footer-div1-logo__img:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     transition: .5s;
 }
 
@@ -539,67 +539,29 @@ p{
 
 /*Cuenta*/
 
-.formulario-cuenta {
-    width: 500px;
+.div-formulario{
     background-color: #1b3039;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-radius: 60px;
-    font-family: 'calibri';
-    color: white;
     box-shadow: 7px 13px 37px #000;
 }
 
-.formulario-cuenta h3 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.formulario-cuenta .link {
-    color: rgb(255, 255, 255);
-}
-
-.controles-cuenta {
-    width: 450px;
+.input-formulario{
     background-color: #1b3039;
-    padding: 10px;
-    border-radius: 7px;
-    margin-bottom: 15px;
-    display: block;
-    border: 2,5px solid #000;
-    font-family: 'calibri';
-    font-size: 20px;
-}
-
-.formulario-cuenta .p-cuenta {
     height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
 }
 
-.formulario-cuenta .boton-cuenta button{
-    background-color: #eceff1;
-    font-weight: 700;
-    color: #1b3039;
-    padding: 12px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3 ease 0s;
-    background: #79bedb;
-    width: 100%;
-    padding: 12px;
-    font-size: 20px;
-    margin: 16px 0;
+.row{
+    margin: 5% 0;
 }
 
-.formulario-cuenta .boton-cuenta button:hover{
-    background-color: #e2f1f8;
-    color: #1b3039;
-    transform: scale(1.1);
+.div-formulario h1,p{
+    color: white;
+}
+
+.div-formulario label{
+    color: white;
+}
+
+.div-formulario .btn{
+    width: 90%;
 }
 
