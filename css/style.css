@@ -388,79 +388,32 @@ p{
 
 /*Contacto*/
 
-.maincontacto__formulario {
-    width: 35%;
+.div-formulario{
     background-color: #1b3039;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border-radius: 60px;
-    font-family: 'calibri';
-    color: white;
     box-shadow: 7px 13px 37px #000;
 }
 
-.maincontacto__formulario h3 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.maincontacto__formulario .link {
-    color: rgb(255, 255, 255);
-}
-
-.maincontacto-formulario__controles {
-    width: 100%;
+.input-formulario{
     background-color: #1b3039;
-    padding: 10px;
-    border-radius: 7px;
-    margin-bottom: 15px;
-    display: block;
-    border: 2,5px solid #000;
-    font-family: 'calibri';
-    font-size: 20px;
+    height: 40px;
+    color: white;
 }
 
-.maincontacto__formulario .maincontacto-formulario__boton button{
-    background-color: #eceff1;
-    font-weight: 700;
-    color: #1b3039;
-    padding: 12px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3 ease 0s;
-    background: #79bedb;
-    width: 100%;
-    padding: 12px;
-    font-size: 20px;
-    margin: 16px 0;
+.row{
+    margin: 5% 0;
 }
 
-.maincontacto__formulario .maincontacto-formulario__boton button:hover{
-    background-color: #e2f1f8;
-    color: #1b3039;
-    transform: scale(1.1);
+.div-formulario h1,p{
+    color: white;
 }
 
-@media (max-width: 1200px){
-    .maincontacto__formulario {
-        width: 45%;
-    }
+.div-formulario label{
+    color: white;
 }
 
-@media (max-width: 700px){
-    .maincontacto__formulario {
-        width: 65%;
-    }
-}
-
-@media (max-width: 700px){
-    .maincontacto__formulario {
-        width: 85%;
-    }
+.form-control{
+    background-color: #1b3039;
+    color: white;
 }
 
 

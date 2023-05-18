@@ -117,6 +117,7 @@ nav{
 
 
 footer {
+    margin-top: 150px;
     width: 100%;
     height: 5%;
     padding: 2rem 8%;
@@ -217,24 +218,19 @@ main {
 
 
 
-.div-formulario{
-    background-color: #1b3039;
-    box-shadow: 7px 13px 37px #000;
+
+
+.row-carrito img{
+    width: 80%;
+    border-radius: 20px;
 }
 
-.input-formulario{
-    background-color: #1b3039;
-    height: 40px;
+.container-carrito p{
+    font-size: 30px;
 }
 
-.row{
-    margin: 5% 0;
-}
-
-.div-formulario h1,p{
-    color: white;
-}
-
-.div-formulario label{
-    color: white;
+@media (max-width: 1199px) {
+    .container-carrito p{
+        font-size: 25px;
+    }
 }
