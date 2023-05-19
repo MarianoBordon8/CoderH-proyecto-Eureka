@@ -208,6 +208,7 @@ footer .bi{
 
 main {
     margin-top: 150px;
+
 }
 
 
@@ -220,51 +221,111 @@ main {
 
 
 
-.row-carrito img{
-    width: 80%;
-    border-radius: 20px;
-    box-shadow: 7px 13px 37px #000;
-    cursor: pointer;
-}
-
-.container-carrito p{
-    font-size: 30px;
-}
-
-.cantidad{
+.container-inicio{
     width: 100%;
-    background-color: #e6d966;
-    border: solid black;
-    border-radius: 10px;
+    margin: auto;
 }
 
-.container-total{
-    margin-left: 5%;
-    margin-right: 5%;
+.container-inicio .row{
+    width: 100%;
 }
 
-@media (max-width: 1199px) {
-    .container-carrito p{
-        font-size: 25px;
-    }
+.boton-index{
+    border-radius: 50px;
+    width: 45%;
+    margin: 5%;
+}
+
+.boton-index:hover{
+    background-color: #1b3039;
+}
+
+.div-menu{
+    padding: 5px;
+    background-color: #fcf18c;
+}
+
+.div-menu ul{
+    width: 20%;
+}
+
+.div-menu ul h5{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div-menu ul li{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.container-inicio-card .card{
+    border-radius: 30px;
+    margin: 5%;
+    background-color: #1b3039;
+    box-shadow: 7px 13px 37px #000;
+    height: 75vh;
+}
+
+.container-inicio-card .card .btn{
+    border-radius: 20px;
+}
+
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+}
+
+h3,h5{
+    color: rgb(156, 190, 241);
 }
 
 @media (max-width: 767px) {
-    .p-cantidad{
-        display: none;
+    .container-inicio-card .card{
+        height: 70vh;
     }
 
-    .row-carrito img{
-        width: 100%;
+    .container-inicio-card .card h5{
+        font-size: 20px;
+    }
+
+    .div-menu ul li{
+        font-size: 15px;
+    }
+    .div-menu ul h5{
+        font-size: 20px;
+    }
+    .div-menu{
+        width: 25%;
+    }
+
+    .card-body{
+        padding: 10%;
+        padding-top: 5%;
     }
 }
 
 @media (max-width: 500px) {
-    .container-carrito p{
+    .container-inicio-card .card{
+        height: 75vh;
+    }
+
+    .div-menu ul li{
+        font-size: 10px;
+    }
+
+    .container-inicio-card .card h5{
         font-size: 15px;
     }
 
-    .row-carrito img{
-        width: 120%;
+    .div-menu ul h5{
+        font-size: 15px;
     }
 }
+
+@media (max-width: 420px) {
+    .container-inicio-card .card{
+        height: 65vh;
+    }
+}
+
