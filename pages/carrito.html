@@ -66,40 +66,111 @@
 
 
         <main class="main-carrito">
-            <section class="seccion1-carrito">
-                <div class="contenedor-carrito">
-                    <ul class="ul-carrito-encabezado">
-                        <li>Imagen</li>
-                        <li>Nombre</li>
-                        <li>Precio</li>
-                        <li>Cantidad</li>
-                    </ul>
-                    <ul class="ul-carrito-producto">
-                        <img src="../image/4.jpeg" alt="">
-                        <h3>Cartucher mini</h3>
-                        <p>$500</p>
-                        <p>3</p>
-                    </ul>
-                    <ul class="ul-carrito-producto">
-                        <img src="../image/3.jpeg" alt="">
-                        <h3>Set matero hojas</h3>
-                        <p>$500</p>
-                        <p>2</p>
-                    </ul>
-                    <ul class="ul-carrito-producto">
-                        <img src="../image/12.jpeg" alt="">
-                        <h3>Cartuchera gustavo</h3>
-                        <p>$500</p>
-                        <p>3</p>
-                    </ul>
-                    <button>Vaciar carrito</button>
+            <div class="container container-carrito text-center">
+                <div class="row row-carrito-titulo mb-3">
+                    <div class="col-3">
+                        <p>Producto</p>
+                    </div>
+                    <div class="col-4">
+                        <p>Nombre</p>
+                    </div>
+                    <div class="col-3">
+                        <div class="row">
+                            <div class="col-md-8 align-self-start">
+                                <p>precio</p>
+                            </div>
+                            <div class="col-md-4 p-cantidad align-self-start">
+                                <p>cant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p>Subtotal</p>
+                    </div>
                 </div>
-            </section>
-            <section class="seccion2-carrito">
-                <h2>Total</h2>
-                <h3>$$$$$</h3>
-            </section>
-        </main>
+                <div class="row row-carrito mb-3">
+                    <div class="col-3">
+                        <img src="../image/5.jpeg" alt="">
+                    </div>
+                    <div class="col-4 align-self-center">
+                        <p>cartucheras infantiles</p>
+                    </div>
+                    <div class="col-3 align-self-center">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>$1500</p>
+                            </div>
+                            <div class="col-md-4">
+                                <input class="cantidad" type="number" name="cantidad" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <p>$6000</p>
+                    </div>
+                </div>
+                <div class="row row-carrito mb-3">
+                    <div class="col-3">
+                        <img src="../image/5.jpeg" alt="">
+                    </div>
+                    <div class="col-4 align-self-center">
+                        <p>cartucheras infantiles</p>
+                    </div>
+                    <div class="col-3 align-self-center">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>$1500</p>
+                            </div>
+                            <div class="col-md-4">
+                                <input class="cantidad" type="number" name="cantidad" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <p>$6000</p>
+                    </div>
+                </div>
+                <div class="row row-carrito mb-3">
+                    <div class="col-3">
+                        <img src="../image/5.jpeg" alt="">
+                    </div>
+                    <div class="col-4 align-self-center">
+                        <p>cartucheras infantiles</p>
+                    </div>
+                    <div class="col-3 align-self-center">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p>$1500</p>
+                            </div>
+                            <div class="col-md-4">
+                                <input class="cantidad" type="number" name="cantidad" min="1" value="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <p>$6000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-total row mt-5">
+                <div class="carrito-total col-sm-6">
+                    <div class="row">
+                        <h1>TOTAL</h1>
+                    </div>
+                    <div class="row">
+                        <p>$$$$$$$$$$</p>
+                    </div>
+                </div>
+                <div class="carrito-boton col-sm-6">
+                    <div class="row">
+                        <button class="btn btn-primary" type="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
         <footer class="container-fluid">
             <div class="footer-div1__logo">
                 <img src="../image/eureka!.png" alt=""class="footer-div1-logo__img">
