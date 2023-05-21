@@ -246,7 +246,7 @@ main {
 }
 
 .div-menu ul{
-    width: 20%;
+    width: 100%;
 }
 
 .div-menu ul h5{
@@ -280,6 +280,26 @@ h3,h5{
     color: rgb(156, 190, 241);
 }
 
+.boton-todosproductos {
+    border-radius: 40px;
+}
+
+.boton-todosproductos a{
+    text-decoration: none;
+    color:#eceff1;
+}
+
+.boton-todosproductos a:hover{
+    color: rgb(15, 255, 15);
+}
+
+
+
+.boton-todosproductos:hover{
+    background-color:#1b3039;
+}
+
+
 @media (max-width: 767px) {
     .container-inicio-card .card{
         height: 70vh;
@@ -307,25 +327,33 @@ h3,h5{
 
 @media (max-width: 500px) {
     .container-inicio-card .card{
-        height: 75vh;
+        height: 60vh;
     }
 
     .div-menu ul li{
         font-size: 10px;
     }
 
-    .container-inicio-card .card h5{
+    .div-menu ul h5{
         font-size: 15px;
     }
 
-    .div-menu ul h5{
+    .container-inicio-card .card h5{
         font-size: 15px;
     }
 }
 
 @media (max-width: 420px) {
     .container-inicio-card .card{
-        height: 65vh;
+        height: 55vh;
+    }
+
+    .div-menu ul li{
+        font-size: 8px;
+    }
+
+    .div-menu ul h5{
+        font-size: 13px;
     }
 }
 
