@@ -354,11 +354,11 @@ h3,h5{
 
 @media (max-width: 420px) {
     .container-inicio-card .card{
-        height: 55vh;
+        height: 45vh;
     }
 
     .div-menu ul li{
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .div-menu ul h5{
