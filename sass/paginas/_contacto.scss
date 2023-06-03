@@ -1,0 +1,36 @@
+.main__contacto{
+    .row{
+        margin: 5% 0;
+        .div-formulario{
+            background-color: $colorsecundario;
+            box-shadow: 7px 13px 37px #000;
+            form{
+                .row{
+                    margin: 5% 0;
+                    h1{
+                        color: $colorterciario;
+                    }
+                    .input-formulario{
+                        background-color: $colorsecundario;
+                        height: 40px;
+                        color: $colorterciario
+                    }
+                    label{
+                        color: $colorterciario;
+                    }
+                    p{
+                        color: $colorterciario;
+                    }
+                    .boton-contacto{
+                        width: 100%;
+                        border-radius: 40px;
+                    }
+                    textarea{
+                        background-color: $colorsecundario;
+                        color: $colorterciario;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.main__cuenta{
+    .row{
+        margin: 5% 0;
+        .div-formulario{
+            background-color: $colorsecundario;
+            box-shadow: 7px 13px 37px #000;
+            form{
+                .row{
+                    margin: 5% 0;
+                    .input-formulario{
+                        background-color: $colorsecundario;
+                        height: 40px;
+                        color: $colorterciario;
+                    }
+                    label{
+                        color: $colorterciario;
+                    }
+                    p{
+                        color: $colorterciario;
+                    }
+                    h1{
+                        color: $colorterciario;
+                    }
+                    .boton-cuenta{
+                        width: 100%;
+                        border-radius: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

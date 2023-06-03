@@ -4,6 +4,29 @@
 /*-------------------------------------------------------------------------------------------------------------*/
 /*Imports*/
 /*-------------------------------------------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #fff59d;
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  margin-top: 150px;
+}
+
 .header {
   background-color: #1b3039;
   display: flex;
@@ -154,35 +177,6 @@ footer .footer-div2__iconos .face:hover {
     padding-left: 40%;
   }
 }
-/*-------------------------------------------------------------------------------------------------------------*/
-/*igual para todos los html*/
-/*-------------------------------------------------------------------------------------------------------------*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  list-style: none;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  background-color: #fff59d;
-  position: relative;
-  min-height: 100vh;
-}
-
-main {
-  margin-top: 150px;
-}
-
-/*-------------------------------------------------------------------------------------------------------------*/
-/*Inicio*/
-/*-------------------------------------------------------------------------------------------------------------*/
 .maininicio .container-inicio {
   width: 100%;
   margin: auto;
@@ -223,10 +217,10 @@ main {
   position: relative;
 }
 .maininicio .container-inicio .row .container-inicio-card .row .columnas-card-inicio .card .card-body h3 {
-  color: rgb(156, 190, 241);
+  color: #85afec;
 }
 .maininicio .container-inicio .row .container-inicio-card .row .columnas-card-inicio .card .card-body h5 {
-  color: rgb(156, 190, 241);
+  color: #85afec;
 }
 .maininicio .container-inicio .row .container-inicio-card .row .columnas-card-inicio .card .card-body .boton-card-index {
   position: absolute;
@@ -260,14 +254,11 @@ main {
   .container-inicio-card .card h5 {
     font-size: 20px;
   }
-  .div-menu ul li {
-    font-size: 13px;
-  }
   .div-menu ul h5 {
     font-size: 20px;
   }
-  .div-menu {
-    width: 25%;
+  .div-menu li {
+    font-size: 13px;
   }
   .card-body {
     padding: 10%;
@@ -278,13 +269,13 @@ main {
   .container-inicio-card .card {
     height: 60vh;
   }
+  .container-inicio-card .card h5 {
+    font-size: 15px;
+  }
   .div-menu ul li {
     font-size: 10px;
   }
   .div-menu ul h5 {
-    font-size: 15px;
-  }
-  .container-inicio-card .card h5 {
     font-size: 15px;
   }
 }
@@ -299,9 +290,6 @@ main {
     font-size: 13px;
   }
 }
-/*-------------------------------------------------------------------------------------------------------------*/
-/*productos*/
-/*-------------------------------------------------------------------------------------------------------------*/
 .main__productos .carousel .titulos {
   margin-left: 15px;
 }
@@ -326,9 +314,6 @@ main {
     display: none;
   }
 }
-/*-------------------------------------------------------------------------------------------------------------*/
-/*Stock*/
-/*-------------------------------------------------------------------------------------------------------------*/
 .main__stock .conteiner .row .columna-card-stock .card {
   border-radius: 30px;
   margin: 5%;
@@ -344,13 +329,13 @@ main {
   margin-top: -15px;
 }
 .main__stock .conteiner .row .columna-card-stock .card .card-body h5 {
-  color: rgb(133, 175, 236);
+  color: #85afec;
 }
 .main__stock .conteiner .row .columna-card-stock .card .card-body p {
   color: #eceff1;
 }
 .main__stock .conteiner .row .columna-card-stock .card .div-precio h3 {
-  color: rgb(133, 175, 236);
+  color: #85afec;
 }
 .main__stock .conteiner .row .columna-card-stock .card .div-precio .boton-stock {
   border-radius: 50px;
@@ -361,9 +346,6 @@ main {
   background-color: #1b3039;
 }
 
-/*-------------------------------------------------------------------------------------------------------------*/
-/*Contacto*/
-/*-------------------------------------------------------------------------------------------------------------*/
 .main__contacto .row {
   margin: 5% 0;
 }
@@ -397,9 +379,6 @@ main {
   color: #eceff1;
 }
 
-/*-------------------------------------------------------------------------------------------------------------*/
-/*Carrito*/
-/*-------------------------------------------------------------------------------------------------------------*/
 .main-carrito .container-carrito .row-carrito-titulo p {
   font-size: 30px;
   color: #000;
@@ -456,9 +435,6 @@ main {
     width: 120%;
   }
 }
-/*-------------------------------------------------------------------------------------------------------------*/
-/*Cuenta*/
-/*-------------------------------------------------------------------------------------------------------------*/
 .main__cuenta .row {
   margin: 5% 0;
 }
@@ -472,6 +448,7 @@ main {
 .main__cuenta .row .div-formulario form .row .input-formulario {
   background-color: #1b3039;
   height: 40px;
+  color: #eceff1;
 }
 .main__cuenta .row .div-formulario form .row label {
   color: #eceff1;

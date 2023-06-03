@@ -1,0 +1,41 @@
+.main__stock{
+    .conteiner{
+        .row{
+            .columna-card-stock{
+                .card{
+                    border-radius: 30px;
+                    margin: 5%;
+                    background-color:#1b3039;
+                    box-shadow: 7px 13px 37px #000;
+                    .card-img-top{
+                        border-radius: 50px;
+                        padding: 20px;
+                    }
+                    .card-body{
+                        padding: 25px;
+                        margin-top: -15px;
+                        h5{
+                            color: $colorcuarto;
+                        }
+                        p{
+                            color: #eceff1;
+                        }
+                    }
+                    .div-precio{
+                        h3{
+                            color: $colorcuarto;
+                        }
+                        .boton-stock{
+                            border-radius: 50px;
+                            width: 45%;
+                            margin: 5%;
+                            &:hover{
+                                background-color: #1b3039;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
