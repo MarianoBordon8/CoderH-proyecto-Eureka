@@ -60,10 +60,12 @@
                         }
                         .dropdown-menu{
                             background-color: $colorsecundario;
-                            background: #000;
                             li{
                                 .dropdown-item{
                                     color: $colorterciario;
+                                    &:hover{
+                                        color: $colorsecundario;
+                                    }
                                 }
                             }
                         }

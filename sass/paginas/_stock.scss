@@ -1,4 +1,9 @@
 .main__stock{
+    h1{
+        display: flex;
+        justify-content: center;
+        color: $colorcuarto;
+    }
     .conteiner{
         .row{
             .columna-card-stock{

@@ -1,4 +1,10 @@
 .main__productos{
+    h1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        color: $colorcuarto;
+    }
     .carousel{
         .titulos{
             margin-left: 15px;
