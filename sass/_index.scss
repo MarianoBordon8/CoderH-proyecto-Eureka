@@ -25,6 +25,13 @@
                         padding-left: 10px;
                         padding-bottom: 20px;
                         font-size: 23px;
+                        a{
+                            color: #1d1d1d;
+                            text-decoration: none;
+                            &:hover{
+                                color: rgb(15, 255, 15);
+                            }
+                        }
                     }
                 }
             }

@@ -210,6 +210,13 @@ footer .footer-div2__iconos .face:hover {
   padding-bottom: 20px;
   font-size: 23px;
 }
+.maininicio .container-inicio .row .div-menu ul li a {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+.maininicio .container-inicio .row .div-menu ul li a:hover {
+  color: rgb(15, 255, 15);
+}
 .maininicio .container-inicio .row .container-inicio-card .row .columnas-card-inicio .card {
   border-radius: 30px;
   margin: 5%;
