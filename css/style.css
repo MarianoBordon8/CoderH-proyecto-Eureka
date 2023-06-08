@@ -324,7 +324,7 @@ footer .footer-div2__iconos .face:hover {
   padding: auto;
 }
 .main__productos .carousel .carousel-inner .carousel-item img {
-  width: 100px;
+  height: 338px;
   border-radius: 20px;
   cursor: pointer;
   margin: 3%;
@@ -438,8 +438,7 @@ footer .footer-div2__iconos .face:hover {
   border-radius: 10px;
 }
 .main-carrito .container-total {
-  margin-left: 7%;
-  margin-right: 7%;
+  margin: 0 7%;
 }
 .main-carrito .container-total h1 {
   color: #000;
