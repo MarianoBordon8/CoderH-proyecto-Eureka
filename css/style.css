@@ -200,7 +200,8 @@ footer .footer-div2__iconos .face:hover {
 .maininicio .container-inicio .row .div-menu ul {
   width: 100%;
 }
-.maininicio .container-inicio .row .div-menu ul h5 {
+.maininicio .container-inicio .row .div-menu ul h2 {
+  font-size: 2vw;
   padding-top: 20px;
   padding-bottom: 20px;
   color: rgb(35, 114, 233);
@@ -234,7 +235,7 @@ footer .footer-div2__iconos .face:hover {
 .maininicio .container-inicio .row .container-inicio-card .row .columnas-card-inicio .card .card-body h3 {
   color: #85afec;
 }
-.maininicio .container-inicio .row .container-inicio-card .row .columnas-card-inicio .card .card-body h5 {
+.maininicio .container-inicio .row .container-inicio-card .row .columnas-card-inicio .card .card-body h4 {
   color: #85afec;
 }
 .maininicio .container-inicio .row .container-inicio-card .row .columnas-card-inicio .card .card-body .boton-card-index {
@@ -262,15 +263,20 @@ footer .footer-div2__iconos .face:hover {
   color: rgb(15, 255, 15);
 }
 
+@media (max-width: 992px) {
+  .div-menu h2 {
+    font-size: 5vw;
+  }
+}
 @media (max-width: 767px) {
   .container-inicio-card .card {
     height: 70vh;
   }
-  .container-inicio-card .card h5 {
-    font-size: 20px;
+  .container-inicio-card .card h2 {
+    font-size: 4vw;
   }
-  .div-menu ul h5 {
-    font-size: 20px;
+  .div-menu ul h2 {
+    font-size: 6vw;
   }
   .div-menu li {
     font-size: 13px;
@@ -293,8 +299,8 @@ footer .footer-div2__iconos .face:hover {
   .div-menu ul li {
     font-size: 10px;
   }
-  .div-menu ul h5 {
-    font-size: 15px;
+  .div-menu ul h2 {
+    font-size: 5vw;
   }
 }
 @media (max-width: 420px) {
@@ -307,8 +313,8 @@ footer .footer-div2__iconos .face:hover {
   .div-menu ul li {
     font-size: 10px;
   }
-  .div-menu ul h5 {
-    font-size: 13px;
+  .div-menu ul h2 {
+    font-size: 40px;
   }
 }
 .main__productos h1 {
@@ -324,7 +330,6 @@ footer .footer-div2__iconos .face:hover {
   padding: auto;
 }
 .main__productos .carousel .carousel-inner .carousel-item img {
-  height: 338px;
   border-radius: 20px;
   cursor: pointer;
   margin: 3%;

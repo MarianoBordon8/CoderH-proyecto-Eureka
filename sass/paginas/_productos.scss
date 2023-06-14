@@ -13,7 +13,6 @@
             .carousel-item{
                 padding: auto;
                 img{
-                    height: 338px;
                     border-radius: 20px;
                     cursor: pointer;
                     margin: 3%;
@@ -29,8 +28,11 @@
     }
 }
 
+
+
 @media (max-width: 700px) {
     .carousel-indicators{
         display: none;
     }
 }
+

@@ -16,7 +16,8 @@
                 border-radius: 10px;
                 ul{
                     width: 100%;
-                    h5{
+                    h2{
+                        font-size: 2vw;
                         padding-top: 20px;
                         padding-bottom: 20px;
                         color: rgb(35, 114, 233);
@@ -53,7 +54,7 @@
                                 h3{
                                     color: $colorcuarto;
                                 }
-                                h5{
+                                h4{
                                     color: $colorcuarto;
                                 }
                                 .boton-card-index{
@@ -91,18 +92,28 @@
     }
 }
 
+
+
+@media (max-width: 992px){
+    .div-menu{
+        h2{
+            font-size: 5vw;
+        }
+    }
+}
+
 @media (max-width: 767px) {
     .container-inicio-card .card{
         height: 70vh;
-        h5{
-            font-size: 20px;
+        h2{
+            font-size: 4vw;
         }
     }
 
     .div-menu{
     ul{
-        h5{
-            font-size: 20px;
+        h2{
+            font-size: 6vw;
         }
     }
     li{
@@ -127,13 +138,15 @@
         }
     }
 
-    .div-menu ul{
+    .div-menu{
+    ul{
         li{
             font-size: 10px;
         }
-        h5{
-            font-size: 15px;
+        h2{
+            font-size: 5vw;
         }
+    }
     }
 }
 
@@ -149,8 +162,8 @@
         li{
             font-size: 10px;
         }
-        h5{
-            font-size: 13px;
+        h2{
+            font-size: 40px;
         }
     }
 }
