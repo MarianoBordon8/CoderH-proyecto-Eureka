@@ -12,23 +12,24 @@
             width: 100%;
             .div-menu{
                 padding: 5px;
-                background-color: #fdf077;
+                background-color: #f8e750;
                 border-radius: 10px;
                 ul{
                     width: 100%;
                     h2{
-                        font-size: 2vw;
-                        padding-top: 20px;
-                        padding-bottom: 20px;
+                        font-weight: bold;
+                        font-size: 2.3vw;
+                        padding: 20% 0;
                         color: rgb(35, 114, 233);
                     }
                     li{
                         padding-left: 10px;
                         padding-bottom: 20px;
-                        font-size: 23px;
+                        overflow: hidden;
                         a{
                             color: #1d1d1d;
                             text-decoration: none;
+                            font-size: 1.9vw;
                             &:hover{
                                 color: rgb(15, 255, 15);
                             }
@@ -36,38 +37,42 @@
                     }
                 }
             }
-            .container-inicio-card{
-                .row{
-                    .columnas-card-inicio{
-                        .card{
-                            border-radius: 30px;
+            .columna-card-inicio{
+                .card{
+                    border-radius: 30px;
+                    margin: 5%;
+                    background-color:#1b3039;
+                    box-shadow: 7px 13px 37px #000;
+                    .card-img-top{
+                        border-radius: 50px;
+                        padding: 20px;
+                    }
+                    .card-body{
+                        padding: 25px;
+                        margin-top: -15px;
+                        display: flex;
+                        justify-content: center;
+                        h3{
+                            color: $colorcuarto;
+                            font-size: 1em;
+                        }
+                        p{
+                            color: #eceff1;
+                        }
+                    }
+                    .div-precio{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        h4{
+                            color: $colorcuarto;
+                        }
+                        .boton-stock{
+                            border-radius: 50px;
+                            width: 100%;
                             margin: 5%;
-                            background-color: $colorsecundario;
-                            box-shadow: 7px 13px 37px #000;
-                            height: 75vh;
-                            .card-img-top{
-                                border-radius: 50px;
-                                padding: 20px;
-                            }
-                            .card-body{
-                                position: relative;
-                                h3{
-                                    color: $colorcuarto;
-                                }
-                                h4{
-                                    color: $colorcuarto;
-                                }
-                                .boton-card-index{
-                                    position: absolute;
-                                    bottom: 0;
-                                    left: 0;
-                                    border-radius: 50px;
-                                    width: 90%;
-                                    margin: 5%;
-                                    &:hover{
-                                        background-color: $colorsecundario;
-                                    }
-                                }
+                            &:hover{
+                                background-color: #1b3039;
                             }
                         }
                     }
@@ -92,78 +97,3 @@
     }
 }
 
-
-
-@media (max-width: 992px){
-    .div-menu{
-        h2{
-            font-size: 5vw;
-        }
-    }
-}
-
-@media (max-width: 767px) {
-    .container-inicio-card .card{
-        height: 70vh;
-        h2{
-            font-size: 4vw;
-        }
-    }
-
-    .div-menu{
-    ul{
-        h2{
-            font-size: 6vw;
-        }
-    }
-    li{
-        font-size: 13px;
-    }
-    }
-
-    .card-body{
-        padding: 10%;
-        padding-top: 5%;
-    }
-}
-
-@media (max-width: 500px) {
-    h1{
-        font-size: 30px;
-    }
-    .container-inicio-card .card{
-        height: 60vh;
-        h5{
-            font-size: 15px;
-        }
-    }
-
-    .div-menu{
-    ul{
-        li{
-            font-size: 10px;
-        }
-        h2{
-            font-size: 5vw;
-        }
-    }
-    }
-}
-
-@media (max-width: 420px) {
-    h1{
-        font-size: 20px;
-    }
-    .container-inicio-card .card{
-        height: 45vh;
-    }
-
-    .div-menu ul{
-        li{
-            font-size: 10px;
-        }
-        h2{
-            font-size: 40px;
-        }
-    }
-}
